@@ -6,7 +6,7 @@ variables:
   - group: 'vh-hearings-reform-hmcts-net-dns-zone'
 
   - name: appName 
-    value: vh-videoapp-api # name of the app to be registered and provisioned
+    value: vh-example-api # name of the app to be registered and provisioned
 
   - name: WebSiteName
     value: $(appName)-$(environmentName) # web site name "$(environmentName)" is set during runtime from GUI. 
