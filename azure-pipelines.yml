@@ -7,6 +7,9 @@ variables:
 
   - name: appName 
     value: vh-example-api # name of the app to be registered and provisioned
+    
+  - name: groupMembershipClaims: '' # Available values: SecurityGroup, All
+    value: SecurityGroup
 
   - name: WebSiteName
     value: $(appName)-$(environmentName) # web site name "$(environmentName)" is set during runtime from GUI. 
