@@ -21,7 +21,7 @@ resources:
   - repository: azureDevOpsTemplates
     type: github
     name: hmcts/azure-devops-templates
-    #ref: refs/heads/master  # ref name to use, defaults to 'refs/heads/master'
+    ref: refs/heads/set-group-membership-claims-rdo-3526  # ref name to use, defaults to 'refs/heads/master'
     endpoint: 'GitHubDevOps'
 
 trigger:
