@@ -1,23 +1,39 @@
 {
     "requiredResourceAccess": [{
+            "resourceAppName": "Microsoft.Azure.ActiveDirectory",
+            "resourceAppId": "00000002-0000-0000-c000-000000000000",
+            "resourceAccess": [{
+                "resourceAccessName": "Sign in and read user profile",
+                "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
+                "type": "Scope"
+            }]
+        },
+        {
             "resourceAppName": "Microsoft Graph",
             "resourceAppId": "00000003-0000-0000-c000-000000000000",
             "resourceAccess": [{
-                    "resourceAccessName": "Read all groups",
-                    "id": "5b567255-7703-4780-807c-7be8301ae99b",
-                    "type": "Role"
-                }
-
-            ]
-        },
-        {
-            "resourceAppId": "00000002-0000-0000-c000-000000000000",
-            "resourceAccess": [{
-                    "id": "1cda74f2-2616-4834-b122-5cb1b07f8a59",
+                    "resourceAccessName": "Read and write files in all site collections",
+                    "id": "75359482-378d-4052-8f01-80520e7db3cd",
                     "type": "Role"
                 },
                 {
-                    "id": "78c8a3c8-a07e-4b9e-af1b-b5ccab50a175",
+                    "resourceAccessName": "Read your organization's security actions",
+                    "id": "5e0edab9-c148-49d0-b423-ac253e121825",
+                    "type": "Role"
+                },
+                {
+                    "resourceAccessName": "Sign in and read user profile",
+                    "id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+                    "type": "Scope"
+                },
+                {
+                    "resourceAccessName": "Read and write items in all site collections (preview)",
+                    "id": "9492366f-7969-46a4-8d15-ed1a20078fff",
+                    "type": "Role"
+                },
+                {
+                    "resourceAccessName": "Send mail as any user",
+                    "id": "b633e1c5-b582-4048-a93e-9f11b44c7e96",
                     "type": "Role"
                 }
             ]
