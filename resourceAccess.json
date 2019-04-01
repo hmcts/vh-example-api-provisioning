@@ -3,10 +3,19 @@
             "resourceAppName": "Microsoft.Azure.ActiveDirectory",
             "resourceAppId": "00000002-0000-0000-c000-000000000000",
             "resourceAccess": [{
-                "resourceAccessName": "Sign in and read user profile",
-                "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
-                "type": "Scope"
-            }]
+                    "resourceAccessName": "Sign in and read user profile",
+                    "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
+                    "type": "Scope"
+                },
+                {
+                    "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
+                    "type": "Scope"
+                },
+                {
+                    "id": "78c8a3c8-a07e-4b9e-af1b-b5ccab50a175",
+                    "type": "Role"
+                }
+            ]
         },
         {
             "resourceAppName": "Microsoft Graph",
@@ -34,6 +43,14 @@
                 {
                     "resourceAccessName": "Send mail as any user",
                     "id": "b633e1c5-b582-4048-a93e-9f11b44c7e96",
+                    "type": "Role"
+                },
+                {
+                    "id": "df021288-bdef-4463-88db-98f22de89214",
+                    "type": "Role"
+                },
+                {
+                    "id": "62a82d76-70ea-41e2-9197-370581804d09",
                     "type": "Role"
                 }
             ]
