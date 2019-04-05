@@ -15,19 +15,25 @@
             "resourceAppName": "Microsoft Graph",
             "resourceAppId": "00000003-0000-0000-c000-000000000000",
             "resourceAccess": [
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> f6a2f2e33456659d74b8f8aa02cec52b25409868
                 {
                     "resourceAccessName": "Sign in and read user profile",
                     "id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
                     "type": "Scope"
                 },
                 {
+<<<<<<< HEAD
                     "resourceAccessName": "Read and write items in all site collections (preview)",
                     "id": "9492366f-7969-46a4-8d15-ed1a20078fff",
                     "type": "Role"
                 },
                 {
+=======
+>>>>>>> f6a2f2e33456659d74b8f8aa02cec52b25409868
                     "resourceAccessName": "Send mail as any user",
                     "id": "b633e1c5-b582-4048-a93e-9f11b44c7e96",
                     "type": "Role"
@@ -35,4 +41,8 @@
             ]
         }
     ]
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f6a2f2e33456659d74b8f8aa02cec52b25409868
