@@ -10,24 +10,6 @@
                     "type": "Scope"
                 }
             ]
-        },
-        {
-            "resourceAppName": "Microsoft Graph",
-            "resourceAppId": "00000003-0000-0000-c000-000000000000",
-            "resourceAccess": [
-
-                {
-                    "resourceAccessName": "Sign in and read user profile",
-                    "id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
-                    "type": "Scope"
-                },
-                {
-
-                    "resourceAccessName": "Read and write items in all site collections (preview)",
-                    "id": "9492366f-7969-46a4-8d15-ed1a20078fff",
-                    "type": "Role"
-                }
-            ]
         }
     ]
 
