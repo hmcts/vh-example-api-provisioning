@@ -1,36 +1,31 @@
 {
-    "requiredResourceAccess": [
-        {
+    "requiredResourceAccess": [{
             "resourceAppName": "Microsoft.Azure.ActiveDirectory",
             "resourceAppId": "00000002-0000-0000-c000-000000000000",
-            "resourceAccess": [
-                {
+            "resourceAccess": [{
                     "resourceAccessName": "Sign in and read user profile",
                     "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
                     "type": "Scope"
+                },
+                {
+                    "id": "5778995a-e1bf-45b8-affa-663a9f3f4d04",
+                    "type": "Role"
                 }
             ]
         },
         {
             "resourceAppName": "Microsoft Graph",
             "resourceAppId": "00000003-0000-0000-c000-000000000000",
-            "resourceAccess": [
-
-                {
-                    "resourceAccessName": "Sign in and read user profile",
-                    "id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+            "resourceAccess": [{
+                    "id": "06da0dbc-49e2-44d2-8312-53f166ab848a",
                     "type": "Scope"
                 },
                 {
-
-                    "resourceAccessName": "Read and write items in all site collections (preview)",
-                    "id": "9492366f-7969-46a4-8d15-ed1a20078fff",
-                    "type": "Role"
+                    "id": "5f8c59db-677d-491f-a6b8-5f174b11ec1d",
+                    "type": "Scope"
                 },
                 {
-
-                    "resourceAccessName": "Send mail as any user",
-                    "id": "b633e1c5-b582-4048-a93e-9f11b44c7e96",
+                    "id": "5b567255-7703-4780-807c-7be8301ae99b",
                     "type": "Role"
                 }
             ]
@@ -38,5 +33,3 @@
     ]
 
 }
-
-
